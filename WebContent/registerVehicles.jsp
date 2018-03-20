@@ -1,144 +1,56 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@ page import ="java.sql.*" %>
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>ePUC Portal</title>
-		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
-		<meta name="keywords" content="legend iphone web template, Andriod web template, Smartphone web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/responsiveslides.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script src="js/responsiveslides.min.js"></script>
-		  <script>
-		    // You can also use "$(window).load(function() {"
-			    $(function () {
-			
-			      // Slideshow 1
-			      $("#slider1").responsiveSlides({
-			        maxwidth: 1600,
-			        speed: 600
-			      });
-			});
-		  </script>
-	</head>
-	<body>
-		<!---start-wrap---->
-		
-			<!---start-header---->
-			<div class="header">
-				<div class="wrap">
-				<!---start-logo---->
-				<div class="logo">
-					<a href="index.html"><img src="#" title="logo" /></a>
-				</div>
-				<!---end-logo---->
-				
-				<!---start-search---->
-				<div class="top-search-bar">
-					<div class="header-top-nav">
-						<ul>
-							<li><a href="#"><img src="images/marker1.png" title="livehelp" />Live Help</a></li>
-							<li><a href="#"><img src="images/marker1.png" title="customer report" />customer Report</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="clear"> </div>
-				</div>
-			</div>
-			
-				<div class="clear"> </div>
-				<div class="header-nav">
-					<div class="wrap">
-					<div class="left-nav">
-						<ul>
-							<li ><a href="index.jsp">Home</a></li>
-							<li><a href="https://www.bankbazaar.com/insurance/motor-insurance-guide/pollution-under-control-certificate.html">About PUC</a></li>
-							<li><a href="https://parivahan.gov.in/parivahan/">More</a></li>
-							<li><a href="contact.jsp">Contact Us</a></li>
-						</ul>
-					</div>
-					<div class="right-social-icons">
-						<ul>
-							<li><a class="icon1" href="#"> </a></li>
-							<li><a class="icon2" href="#"> </a></li>
-							<li><a class="icon3" href="#"> </a></li>
-							<li><a class="icon4" href="#"> </a></li>
-						</ul>
-					</div>
-					<div class="clear"> </div>
-				</div>
-				<!---start-search---->
-			</div>
-			<!---end-header---->
-			<!--start-image-slider---->
-			<!------------------------------------->
-			<div class="wrap">
-					<!---start-content---->
-					<div class="content">
-						<div class="contact">
-		   	<div class="section group">				
-							
-				<div class="col span_2_of_3">
-				  <div class="contact-form">
-				  	<h2>Register Vehicle :</h2>
-					    <form method="post" action="insertRegister.jsp">
-					    	<div>
-						    	<span><label>Vehicle Registration Number</label></span>
-						    	<span><input type="text" name="vrn" value=""></span>
-						    </div>
-						    <div>
-						    	<span><label>Manufacturer</label></span>
-						    	<span><input type="text" name="maker" value=""></span>
-						    </div>
-							<div>
-						    	<span><label>Model</label></span>
-						    	<span><input type="text" name="model" value=""></span>
-						    </div>
-							<div>
-						    	<span><label>Manufactured Date</label></span>
-						    	<span><input type="date" name="mfd" value=""></span>
-						    </div>
-							<div>
-						    	<span><label>Fuel Type</label></span>
-						    	<span><input type="text" name="ft" value=""></span>
-						    </div>
-						    
-						   <div>
-						   		<span><input type="submit" value="Submit"></span>
-								
-						  </div>
-					    </form>
-				    </div>
-  				</div>				
-			  </div>
-			  	 <div class="clear"> </div>
-	</div>
-			<!------------------------------------->
-				<!--End-image-slider---->
-					<!---start-content---->
-				
-					<!---End-content---->
-					<div class="clear"> </div>
-				</div>
-					<div class="footer"> 
-						<div class="wrap"> 
-						<div class="footer-left">
-							<ul>
-								<li ><a href="index.jsp">Home</a></li>
-							<li><a href="https://www.bankbazaar.com/insurance/motor-insurance-guide/pollution-under-control-certificate.html">About PUC</a></li>
-							<li><a href="https://parivahan.gov.in/parivahan/">More</a></li>
-							<li><a href="contact.jsp">Contact Us</a></li>
-							</ul>
-						</div>
-						<div class="footer-right">
-							<p>ePUC &#169 All Rights Reserved | Design By Angle Cracker</a></p>
-						</div>
-						<div class=="clear"> </div>
-					</div>
-					<div class="clear"> </div>
-		<!---end-wrap---->
-		</div>
-	</body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Example</title>
+    </head>
+    <body>
+        <form method="post" action="message.jsp">
+            <center>
+            <table border="1" width="30%" cellpadding="3">
+                <thead>
+                    <tr>
+                        <th colspan="2">Register New Vehicle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Vehicle Registration Number</td>
+                        <td><input type="text" name="vrn" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Maker</td>
+                        <td><input type="text" name="maker" value="" /></td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td>Model</td>
+                        <td><input type="text" name="model" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Manufactured Date</td>
+                        <td><input type="text" name="mfd" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Vehicle Registration Number</td>
+                        <td><input type="text" name="vrn" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Vehicle Registration Number</td>
+                        <td><input type="text" name="vrn" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Vehicle Registration Number</td>
+                        <td><input type="text" name="vrn" value="" /></td>
+                    </tr>
+                        <td><input type="submit" value="submit" /></td>
+                        <td><input type="reset" value="Reset" /></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            </center>
+        </form>
+    </body>
 </html>
-

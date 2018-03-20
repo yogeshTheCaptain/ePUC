@@ -1,4 +1,3 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ page import ="java.sql.*" %>
 <%
     String uid = request.getParameter("uid");    
@@ -13,7 +12,7 @@
         session.setAttribute("userid", uid);
         //out.println("welcome " + userid);
         //out.println("<a href='logout.jsp'>Log out</a>");
-        response.sendRedirect("loggedIn.jsp");
+        response.sendRedirect("success.jsp");
     } else {
         out.println("Invalid password <a href='index.jsp'>try again</a>");
     }
