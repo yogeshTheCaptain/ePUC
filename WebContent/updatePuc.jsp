@@ -37,4 +37,4 @@ System.out.print(e);
 e.printStackTrace();
 }
 %>
-<jsp:forward page="mail.jsp" /> 
+<jsp:forward page="loggedIn.jsp" />
